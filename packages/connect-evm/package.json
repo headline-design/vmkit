@@ -1,0 +1,87 @@
+{
+  "name": "@vmkit/connect-evm",
+  "version": "0.0.2",
+  "author": "vmkit",
+  "homepage": "https://vmkit.xyz",
+  "license": "BSD-2-Clause license",
+  "description": "Navigate web3 with VMkit.",
+  "type": "module",
+  "main": "dist/server.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/server.js",
+      "types": "./dist/types/index.d.ts"
+    },
+    "./server": {
+      "import": "./dist/server.js",
+      "require": "./dist/server.js",
+      "types": "./dist/types/server.d.ts"
+    }
+  },
+  "sideEffects": false,
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "rollup --config rollup.config.dev.js -w",
+    "dev": "rollup --config rollup.config.prod.js",
+    "build": "rollup --config rollup.config.prod.js",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src --ext .ts",
+    "publish": "npm publish --access public"
+  },
+  "keywords": [
+    "ens",
+    "react-hook",
+    "blockchain",
+    "hooks",
+    "ethereum",
+    "react"
+  ],
+  "dependencies": {
+    "@stablelib/random": "^1.0.1",
+    "@tanstack/query-core": "^5.24.1",
+    "@tanstack/react-query": "^5.24.1",
+    "buffer": "^6.0.3",
+    "mime": "^4.0.3",
+    "tslib": "^1.9.3"
+  },
+  "peerDependencies": {
+    "@tanstack/react-query": ">=5.0.0",
+    "iron-session": "^6.0.0 || ^7.0.0",
+    "next": "^13.0.0 || ^14.0.0",
+    "react": "17.x || 18.x",
+    "react-dom": "17.x || 18.x",
+    "viem": "2.x",
+    "wagmi": "2.x"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@rollup/plugin-replace": "^4.0.0",
+    "@types/mime": "^4.0.0",
+    "@types/node": "18.7.18",
+    "@types/qrcode": "^1.4.2",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "rollup": "^2.67.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.34.0",
+    "rollup-plugin-visualizer": "^5.5.4",
+    "typescript": "^5.2.2"
+  },
+  "resolutions": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "viem": "2.7.15",
+    "wagmi": "2.5.7"
+  }
+}

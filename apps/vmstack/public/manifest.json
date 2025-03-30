@@ -1,0 +1,19 @@
+{
+    "name": "VMstack",
+    "short_name": "VMstack",
+    "description": "A cross-vm native authentication and authorization system for your web applications.",
+    "start_url": "/",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "/assets/icon-dark-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/assets/icon-dark-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }

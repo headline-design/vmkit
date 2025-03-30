@@ -1,0 +1,6 @@
+@concrete/ui/components/dist/
+@concrete/ui/components/coverage/
+@concrete/ui/components/icons/generated/
+
+.yarn/*
+yarn.lock

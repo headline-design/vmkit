@@ -1,0 +1,76 @@
+{
+  "name": "vmkit",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev:mono": "turbo run dev --no-daemon --concurrency 19",
+    "build": "turbo run build --no-daemon",
+    "stack": "yarn workspace @vmkit/vmstack dev",
+    "type:stack": "yarn workspace @vmkit/vmstack typecheck",
+    "build:stack": "yarn workspace @vmkit/vmstack build",
+    "dev": "yarn workspace @vmkit/vmstack dev",
+    "lint": "turbo run lint --no-daemon",
+    "clean": "turbo run clean",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "resolutions": {
+    "@types/node": "22.9.0",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.3.1",
+    "@polkadot/wasm-util": "7.4.1",
+    "@polkadot/x-textdecoder": "12.6.2",
+    "@polkadot/util": "12.6.2",
+    "@metamask/sdk": "0.30.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "dependencies": {
+    "@svgr/babel-plugin-remove-jsx-attribute": "^6.0.0",
+    "@svgr/cli": "^5.5.0",
+    "@svgr/core": "^5.5.0",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.9",
+    "@tanstack/query-core": "^5.24.1",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "10.4.13",
+    "change-case": "^4.1.2",
+    "dedent": "^0.7.0",
+    "fs-extra": "^10.0.0",
+    "glob": "^7.2.0",
+    "next": "14.0.3",
+    "next-contentlayer": "^0.3.4",
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "tailwindcss-animate": "^1.0.6"
+  },
+  "devDependencies": {
+    "@size-limit/preset-big-lib": "^6.0.3",
+    "@tanstack/react-query": "^5.24.1",
+    "@turbo/gen": "^1.9.7",
+    "@types/dedent": "^0.7.0",
+    "@types/fs-extra": "^9.0.13",
+    "@types/glob": "^7.2.0",
+    "clsx": "^1.1.1",
+    "encoding": "0.1.13",
+    "eslint": "8.46.0",
+    "eslint-config-custom": "*",
+    "lint-staged": "^11.2.6",
+    "luxon": "2.1.1",
+    "prettier": "^2.5.1",
+    "prompt": "^1.2.0",
+    "size-limit": "^6.0.3",
+    "tailwindcss": "3.3.2",
+    "ts-node": "latest",
+    "tsconfig": "*",
+    "tsup": "6.4.0",
+    "turbo": "latest",
+    "typescript": "^5.2.2"
+  },
+  "packageManager": "yarn@3.6.0",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
