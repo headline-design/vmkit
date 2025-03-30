@@ -30,24 +30,10 @@ The framework offers a suite of packages and tools that work together to simplif
 
 | Package | Description | Version | Links
 |-----|-----|-----|-----
-| `@vmkit/connect-evm` | Connect to Ethereum Virtual Machine networks | [
-
-](https://www.npmjs.com/package/@vmkit/connect-evm) | [Docs](/docs/packages/connect-evm)
-| `@vmkit/connect-svm` | Connect to Solana Virtual Machine networks | [
-
-](https://www.npmjs.com/package/@vmkit/connect-svm) | [Docs](/docs/packages/connect-svm)
-| `@vmkit/connect-avm` | Connect to Algorand Virtual Machine networks | [
-
-](https://www.npmjs.com/package/@vmkit/connect-avm) | [Docs](/docs/packages/connect-avm)
-| `@vmkit/connect-substrate` | Connect to Substrate-based networks | [
-
-](https://www.npmjs.com/package/@vmkit/connect-substrate) | [Docs](/docs/packages/connect-substrate)
-| `@vmkit/connect-core` | Core utilities shared across all packages | [
-
-](https://www.npmjs.com/package/@vmkit/connect-core) | [Docs](/docs/packages/connect-core)
-| `@vmkit/cli` | Command-line tools for VMkit development | [
-
-](https://www.npmjs.com/package/@vmkit/cli) | [Docs](/docs/cli)
+| `@vmkit/connect-evm` | Connect to Ethereum Virtual Machine networks (EVM) such as Ethereum, Binance Smart Chain, Polygon, and more. | [![npm version](https://img.shields.io/npm/v/@vmkit/connect-evm.svg)](https://www.npmjs.com/package/@vmkit/connect-evm) | [Documentation](https://vmkit.xyz/docs/packages/connect-evm) |
+| `@vmkit/connect-svm` | Connect to Solana Virtual Machine networks (SVM) such as Solana. | [![npm version](https://img.shields.io/npm/v/@vmkit/connect-svm.svg)](https://www.npmjs.com/package/@vmkit/connect-svm) | [Documentation](https://vmkit.xyz/docs/packages/connect-svm) |
+| `@vmkit/connect-avm` | Connect to Algorand Virtual Machine networks (AVM) such as Algorand. | [![npm version](https://img.shields.io/npm/v/@vmkit/connect-avm.svg)](https://www.npmjs.com/package/@vmkit/connect-avm) | [Documentation](https://vmkit.xyz/docs/packages/connect-avm) |
+| `@vmkit/connect-substrate` | Connect to Substrate-based networks such as Polkadot and Kusama. | [![npm version](https://img.shields.io/npm/v/@vmkit/connect-substrate.svg)](https://www.npmjs.com/package/@vmkit/connect-substrate) | [Documentation](https://vmkit.xyz/docs/packages/connect-substrate)
 
 
 ## ✨ Key Features
