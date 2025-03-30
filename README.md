@@ -6,9 +6,8 @@
   <p>A comprehensive toolkit for connecting to multiple blockchain networks with a unified API</p>
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-  [![npm version](/assets/icon-dark-512x512.png)](https://www.npmjs.com/package/@vmkit/connect-evm)
   [![GitHub Stars](https://img.shields.io/github/stars/headline-design/vmkit?style=social)](https://github.com/headline-design/vmkit)
-  [![Twitter Follow](https://img.shields.io/twitter/follow/headline_design?style=social)](https://twitter.com/headline_design)
+  [![Twitter Follow](https://img.shields.io/twitter/follow/vmkit_xyz?style=social)](https://twitter.com/headline_design)
 </div>
 
 ## 🌟 About VMkit
