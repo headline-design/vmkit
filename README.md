@@ -1,38 +1,47 @@
-# VMkit Monorepo
+# VMkit
 
-Getting started with VMkit Monorepo
+<div align="center">
+  <img src="/assets/icon-dark-512x512.png" alt="VMkit Logo" width="200" />
+  <h3>Universal Blockchain Connection Library</h3>
+  <p>A comprehensive toolkit for connecting to multiple blockchain networks with a unified API</p>
 
-## Understanding the layout
+  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+  [![npm version](/assets/icon-dark-512x512.png)](https://www.npmjs.com/package/@vmkit/connect-evm)
+  [![GitHub Stars](https://img.shields.io/github/stars/headline-design/vmkit?style=social)](https://github.com/headline-design/vmkit)
+  [![Twitter Follow](https://img.shields.io/twitter/follow/headline_design?style=social)](https://twitter.com/headline_design)
+</div>
 
-The monorepo is split into 4 main sections:
+## 🌟 About VMkit
 
-- root
-  - apps
-  - packages
+VMkit is a comprehensive suite of libraries designed to simplify blockchain development across multiple virtual machines. Our mission is to provide developers with a unified API for connecting to different blockchain networks, making it easier to build cross-chain applications.
 
-### root
+The toolkit consists of:
 
-The root directory contains the `package.json` file for the monorepo. The root directory contains the scripts folder which builds components, icons, etc that other workspaces depend on. It also contains the `yarn.lock` file which is used to lock the versions of all dependencies in the monorepo.
+- **@vmkit/connect-evm**: Connect to Ethereum Virtual Machine networks (Ethereum, Polygon, etc.)
+- **@vmkit/connect-svm**: Connect to Solana Virtual Machine
+- **@vmkit/connect-avm**: Connect to Avalanche Virtual Machine
+- **@vmkit/connect-substrate**: Connect to Substrate-based networks (Polkadot, Kusama, etc.)
+- **VMStack**: A Next.js 15 template for quickly bootstrapping blockchain applications
 
-### apps
+## ✨ Key Features
 
-The apps directory contains all the applications (web templates) that are part of the monorepo. Each application is a separate directory.
+- **Unified API**: Consistent interface across different blockchain networks
+- **Type Safety**: Full TypeScript support with comprehensive type definitions
+- **React Hooks**: Intuitive React hooks for common blockchain operations
+- **Wallet Management**: Connect to and manage wallets across different networks
+- **Smart Contract Interaction**: Simplified interface for interacting with smart contracts
+- **Event Subscriptions**: Subscribe to blockchain events in real-time
+- **Cross-Chain Support**: Build applications that work across multiple blockchains
+- **Authentication**: Sign-in with blockchain wallet capabilities
+- **Performance Optimized**: Efficient data fetching and caching strategies
+- **Comprehensive Documentation**: Detailed guides and API references
 
-### packages
+## 📦 Packages
 
-The packages directory contains all the packages (npm packages) that are part of the monorepo. Each package is a separate directory.
+### @vmkit/connect-evm
 
-## Getting Started
+Connect to Ethereum Virtual Machine networks (Ethereum, Polygon, Arbitrum, Optimism, etc.)
 
-### apps/web
-
-copy the `.env.example` file to `.env` and fill in the values.
-
-### apps/workbench/concrete
-
-copy the `.env.example` file to `.env` and fill in the values.
-
-## Development
-
-run `yarn install` in the root directory to install all dependencies.
-run `yarn setup` in the root directory to init icons and ui components and hardhat with .env contract.
+```bash
+npm install @vmkit/connect-evm
+```
