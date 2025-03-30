@@ -1,9 +1,9 @@
 {
   "name": "@vmkit/connect-avm",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "vmkit",
   "homepage": "https://vmkit.xyz",
-  "license": "BSD-2-Clause license",
+  "license": "MIT",
   "description": "Navigate web3 with VMkit.",
   "type": "module",
   "main": "dist/server.js",

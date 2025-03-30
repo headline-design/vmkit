@@ -10,7 +10,6 @@
   [![Twitter Follow](https://img.shields.io/twitter/follow/vmkit_xyz?style=social)](https://twitter.com/headline_design)
 </div>
 
-Thought for 1 second### VMkit
 
 ## 🌟 About VMkit
 
@@ -69,7 +68,7 @@ VMstack is a production-ready template for building blockchain applications with
 
 ## 🎨 Design System & Styling
 
-VMkit comes with a flexible design system:
+VMstack comes with a flexible design system:
 
 - **shadcn/ui**: High-quality UI components built with Radix UI and Tailwind CSS
 - **Tailwind CSS**: Utility-first CSS framework for rapid UI development
@@ -152,9 +151,9 @@ cd my-blockchain-app
 
 ```shellscript
 # Install core and network packages
-npm install @vmkit/connect-core @vmkit/connect-evm @vmkit/connect-svm
+npm install @vmkit/connect-evm @vmkit/connect-svm
 # or
-pnpm add @vmkit/connect-core @vmkit/connect-evm @vmkit/connect-svm
+pnpm add @vmkit/connect-evm @vmkit/connect-svm
 ```
 
 3. Set up providers in your app:
@@ -230,7 +229,6 @@ Comprehensive documentation is available at [vmkit.xyz/docs](https://vmkit.xyz/d
 - **Guides**: Step-by-step tutorials for common use cases
 - **Examples**: Code examples for various blockchain interactions
 - **Advanced Topics**: Performance optimization, security best practices, debugging
-
 
 ## 🤝 Contributing
 

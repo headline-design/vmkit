@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <HeroSection />
-      <main className="flex min-h-screen flex-col items-center justify-center p-4 md:p-24" >
+      <main className="flex min-h-screen flex-col items-center justify-center p-4 md:py-24 lg:px-24" >
         <Suspense fallback={<div>Loading...</div>}>
           <div id="connect" className="py-12">
             <ConnectSection />

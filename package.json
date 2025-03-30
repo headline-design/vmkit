@@ -5,10 +5,10 @@
   "scripts": {
     "dev:mono": "turbo run dev --no-daemon --concurrency 19",
     "build": "turbo run build --no-daemon",
-    "stack": "yarn workspace @vmkit/vmstack dev",
-    "type:stack": "yarn workspace @vmkit/vmstack typecheck",
-    "build:stack": "yarn workspace @vmkit/vmstack build",
-    "dev": "yarn workspace @vmkit/vmstack dev",
+    "stack": "yarn workspace vmstack dev",
+    "type:stack": "yarn workspace vmstack typecheck",
+    "build:stack": "yarn workspace vmstack build",
+    "dev": "yarn workspace vmstack dev",
     "lint": "turbo run lint --no-daemon",
     "clean": "turbo run clean",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""

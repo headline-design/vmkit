@@ -7045,9 +7045,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vmkit/connect-avm@npm:0.0.1":
-  version: 0.0.1
-  resolution: "@vmkit/connect-avm@npm:0.0.1"
+"@vmkit/connect-avm@npm:0.0.2":
+  version: 0.0.2
+  resolution: "@vmkit/connect-avm@npm:0.0.2"
   dependencies:
     "@stablelib/random": ^1.0.1
     "@tanstack/query-core": ^5.24.1
@@ -7063,7 +7063,7 @@ __metadata:
     next: ^13.0.0 || ^14.0.0
     react: 17.x || 18.x
     react-dom: 17.x || 18.x
-  checksum: 9604da8ed3846cc910faeee9622b7a49187aa61628497cb03cde99e53bc0b5d306949a15c75572d7bdbb80cff476ac159b1eb7b42b90bbac469862d47db0d2e3
+  checksum: 33aece6512d537e60a576dc1edb2e9855e4724ffdf68bc36a7fa25cfd4f9a99398252092f9b6e8fb55dcf6f814914fb750713014ec7d0db7e0cbe05d029e3e11
   languageName: node
   linkType: hard
 
@@ -7102,9 +7102,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@vmkit/connect-evm@npm:0.0.1":
-  version: 0.0.1
-  resolution: "@vmkit/connect-evm@npm:0.0.1"
+"@vmkit/connect-evm@npm:0.0.2":
+  version: 0.0.2
+  resolution: "@vmkit/connect-evm@npm:0.0.2"
   dependencies:
     "@stablelib/random": ^1.0.1
     "@tanstack/query-core": ^5.24.1
@@ -7120,7 +7120,7 @@ __metadata:
     react-dom: 17.x || 18.x
     viem: 2.x
     wagmi: 2.x
-  checksum: 772dec50ffd9b9d6bcf42cc06c3a2355a303b50a87e4f115fc146051359d973e02507b5bbe3ebfbfb1da3517eb4a1e5dc23b1ace0dee1c2f6b237d2bc401c1bd
+  checksum: 137bacafd228378399970482ec44b3825ce8158265b4540b2c7e1b8573f824ff3d2e839a8f41326f5e3087cdc0d5087570318a9ad3f8b96ea5efd6bbb5c40878
   languageName: node
   linkType: hard
 
@@ -7159,9 +7159,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@vmkit/connect-substrate@npm:0.0.1":
-  version: 0.0.1
-  resolution: "@vmkit/connect-substrate@npm:0.0.1"
+"@vmkit/connect-substrate@npm:0.0.2":
+  version: 0.0.2
+  resolution: "@vmkit/connect-substrate@npm:0.0.2"
   dependencies:
     "@stablelib/random": ^1.0.1
     "@tanstack/query-core": ^5.24.1
@@ -7175,7 +7175,7 @@ __metadata:
     next: ^13.0.0 || ^14.0.0
     react: 17.x || 18.x
     react-dom: 17.x || 18.x
-  checksum: 5dd5672e551b90858179c4c923af9d0974d5af1fb330dc8a7eeea4543fb63c6a00d7cfad4ff3d78d865908e495e8f70f8154a08357bccac0a63e2ec73ee6f6f4
+  checksum: 11dbae4c6eee5631be7e8badade8964acb675b0fbe27bce672a82d7e64f3b81a7f28ccbdbe687733034e95e5dfbeb600d973fa3dd22dc0316748a534ea3565c0
   languageName: node
   linkType: hard
 
@@ -7212,9 +7212,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@vmkit/connect-svm@npm:0.0.1":
-  version: 0.0.1
-  resolution: "@vmkit/connect-svm@npm:0.0.1"
+"@vmkit/connect-svm@npm:0.0.2":
+  version: 0.0.2
+  resolution: "@vmkit/connect-svm@npm:0.0.2"
   dependencies:
     "@stablelib/random": ^1.0.1
     "@tanstack/query-core": ^5.24.1
@@ -7228,7 +7228,7 @@ __metadata:
     next: ^13.0.0 || ^14.0.0
     react: 17.x || 18.x
     react-dom: 17.x || 18.x
-  checksum: f9700302864cd6b4fb38b129930a5ed0d0bb4f3c6d726e6d14a83241eee7885fb59a1beb64176eefa65b5b9fc5cff55e090b3e1578530ff04a904b86c143258d
+  checksum: b8a22ef7f64f7cd80d335262938d4663e4e913c0af99268b6b86aa0a634fd4b8e5a26d2e67edbbcddf5dac40df1877665abd74fdbefa63a4a5a87f7d88a976e6
   languageName: node
   linkType: hard
 
@@ -21657,10 +21657,10 @@ __metadata:
     "@types/node": ^20
     "@types/react": ^19
     "@types/react-dom": ^19
-    "@vmkit/connect-avm": 0.0.1
-    "@vmkit/connect-evm": 0.0.1
-    "@vmkit/connect-substrate": 0.0.1
-    "@vmkit/connect-svm": 0.0.1
+    "@vmkit/connect-avm": 0.0.2
+    "@vmkit/connect-evm": 0.0.2
+    "@vmkit/connect-substrate": 0.0.2
+    "@vmkit/connect-svm": 0.0.2
     "@walletconnect/modal": ^2.7.0
     "@walletconnect/sign-client": ^2.17.3
     algosdk: ^3.2.0

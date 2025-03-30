@@ -113,7 +113,7 @@ export default function ConnectSection() {
 
             className="w-full bg-background-accent p-4 transition-colors duration-300 md:p-12"
         >
-            <div className="mx-auto max-w-[1300px]">
+            <div className="mx-auto w-full lg:max-w-[1300px]">
                 <Card className="overflow-hidden  shadow-sm transition-all duration-300 ease-in-out ">
                     <Tabs
                         value={authMethod}
